@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>React Drag</title>
+  <!-- <link rel="stylesheet" type="text/css" href="../lib/styles.css"> -->
+  <style type="text/css">
+    body {
+      color: #222;
+      font-family: "Helvetica Neue", sans-serif;
+      font-weight: 200;
+      margin: 0 50px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+<script src="../node_modules/react/dist/react-with-addons.js"></script>
+<script src="../node_modules/react-dom/dist/react-dom.js"></script>
+<script src="../lib/index.js"></script>
+<script>
+var App = React.createClass({
+  displayName: "App",
+
+  render: function render() {
+    return React.createElement(
+      "div",
+      null,
+      React.createElement(
+        RcLoader,
+        null,
+      )
+    );
+  }
+});
+
+ReactDOM.render(React.createElement(App, null), document.getElementById('container'));
+</script>
+</body>
+</html>
