@@ -1,5 +1,5 @@
 {
-  "name": "rc-loader",
+  "name": "rc-content-loader",
   "version": "0.0.1",
   "description": "react remote component content loader",
   "main": "lib/index.js",
@@ -28,13 +28,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/twobin/rc-loader.git"
+    "url": "https://github.com/twobin/rc-content-loader.git"
   },
   "author": "twobin",
   "bugs": {
-    "url": "https://github.com/twobin/rc-loader/issues"
+    "url": "https://github.com/twobin/rc-content-loader/issues"
   },
-  "homepage": "https://github.com/twobin/rc-loader",
+  "homepage": "https://github.com/twobin/rc-content-loader",
   "dependencies": {
     "react": "^15.4.0",
     "react-dom": "^15.4.0"

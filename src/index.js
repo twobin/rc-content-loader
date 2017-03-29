@@ -49,7 +49,7 @@ const Wrap = (props) => {
 }
 
 
-class RcLoader extends Component {
+class RcContentLoader extends Component {
   constructor(props) {
     super(props)
 
@@ -78,7 +78,7 @@ class RcLoader extends Component {
   }
 }
 
-RcLoader.propTypes = {
+RcContentLoader.propTypes = {
   style: React.PropTypes.object,
   type: React.PropTypes.string,
   speed: React.PropTypes.number,
@@ -87,4 +87,4 @@ RcLoader.propTypes = {
   secondaryColor: React.PropTypes.string,
 }
 
-export default RcLoader
+export default RcContentLoader
